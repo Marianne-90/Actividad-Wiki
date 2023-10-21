@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad Wiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet" />
+    <style>
+        /** variables de entorno**/
+        :root {
+            --blue: #1d4ed8;
+            --dark_blue: #1e3a8a;
+            --transparent_dark_blue: #1e3b8a4d;
+            --dark: #0f172a;
+            --soft_yellow:#FFFBEB;
+            --super_soft_blue: #e0f2fe;
+            --white: #f8fafc;
+        }
+
+        * {
+            color: var(--dark_blue);
+            font-family: "Lato", sans-serif;
+        }
+
+        body {
+            align-items: center;
+            background-color: var(--white);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: var(--super_soft_blue);
+            border-radius: 20px;
+            max-width: 700px;
+            padding: 20px;
+        }
+
+        .definitionContainer{
+            background-color: var(--soft_yellow) ;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: justify;
+            font-size: 23px;
+        }
+
+        h1 {
+            color: var(--dark_blue);
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: var(--blue);
+            font-size: 1.2em;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        hr {
+            border-top: none;
+            border: var(--transparent_dark_blue) 1px solid;
+        }
+
+        li {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        b {
+            align-items: center;
+            color: var(--blue);
+            display: flex;
+            min-width: 110px;
+        }
+
+        span {
+            font-size: .9em;
+            margin-left: 40px;
+            color: rgb(119, 0, 255);
+        }
+
+        img {
+            display:block;
+            margin:auto;
+            width: 500px;
+            height: 250px;
+        }
+       
+        .ejemplos {
+            color: #ffffff;
+
+        }
+
+        h3 {
+            padding-left: 25px;
+            color: #cc00ff;
+        }
+
+        p {
+            border: solid;
+            padding: 10px 20px 10px;
+            text-align: justify;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Diseño de Experiencia de Usuario</h1>
+        <img src="https://blog.ida.cl/wp-content/uploads/sites/5/2017/05/ux.jpg" alt="UX" >       <hr />
+        <br>
+        <div class="listContainer">
+            <h2>Definición</h2>
+            <div class="definitionContainer">
+                <p>El Diseño de Experiencia de Usuario (UX Design) es una disciplina centrada en crear productos y servicios que brinden una experiencia significativa y satisfactoria a los usuarios. Va más allá de la estética visual, abarcando la usabilidad, accesibilidad, fluidez en la interacción y la emoción que suscita. Implica comprender profundamente las necesidades, motivaciones y contextos de los usuarios para diseñar soluciones que mejoren su calidad de vida digital.</p>
+            </div>
+            <hr />
+            <h2>Tareas de un diseñador de Experiencia de Usuario</h2>
+            <ol>
+                <li>
+                    <b>Empatía: </b>
+                    <span>Comprender las necesidades, deseos y limitaciones de los usuarios a través de técnicas como encuestas, entrevistas y observación.</span>
+                </li>
+                <li>
+                    <b>Investigación: </b>
+                    <span>Analizar el contexto de uso y las tendencias del mercado para informar el diseño de soluciones efectivas.</span>
+                </li>
+                <li>
+                    <b>Creatividad: </b>
+                    <span>Generar ideas innovadoras y soluciones creativas que resuelvan los problemas de los usuarios.</span>
+                </li>
+                <li>
+                    <b>Prototipado: </b>
+                    <span>Crear representaciones interactivas de la solución para evaluar y refinar la experiencia antes de la implementación final.</span>
+                </li>
+                <li>
+                    <b>Pruebas y Feedback: </b>
+                    <span>Someter los diseños a pruebas de usabilidad y recopilar feedback de los usuarios para iterar y mejorar.</span>
+                </li>
+                <li>
+                    <b>Diseño Visual: </b>
+                    <span>Aplicar principios de diseño gráfico para crear interfaces atractivas y legibles.</span>
+                </li>
+                <li>
+                    <b>Accesibilidad: </b>
+                    <span>Garantizar que el producto sea usable por personas con diferentes capacidades y necesidades.</span>
+                </li>
+                <li>
+                    <b>Implementación y Coordinación: </b>
+                    <span>Colaborar con desarrolladores y otros profesionales para llevar a cabo la ejecución efectiva del diseño.</span>
+                </li>
+            </ol>
+            <br>
+            <h2 class="ejemplos"> Ejemplos UX de un buen diseño</h2>
+            <h3>Gooogle</h3>
+            <p>Su éxito puede atribuirse en gran medida a la excepcional experiencia de usuario con su sencillez y rapidez de su motor de búsqueda, lo convierten en una herramienta inigualable en términos de usabilidad, los usuarios pueden navegar por la plataforma sin esfuerzo, sin necesidad de tutoriales ni asistencia, solo basta con introducir la consulta de búsqueda deseada y pulsar la tecla Intro, a lo largo de su existencia, la Búsqueda de Google ha mantenido este enfoque de fácil uso, esforzándose continuamente por mejorar su facilidad de uso y eficacia, centrándose principalmente en agilizar la experiencia del usuario eliminando enlaces innecesarios, simplificando y acelerando aún más el proceso de búsqueda.
+            </p>
+            <h3>Airbnb</h3>
+            <p>Es un diseño UX ejemplar en el ámbito de las experiencias de reserva en sitios web, la cual comprender las necesidades y los retos a los que se enfrentan los viajeros cuando buscan alojamiento, como el aspecto destacable del diseño de la página de inicio, aborda eficazmente las preocupaciones de los viajeros proporcionando características y funcionalidades intuitivas, como el mostrar en el inicio los destinos populares cercanos, lo que ayuda a las personas que no están seguras de la ubicación deseada, también presentar una amplia gama de opciones, como casas enteras, alojamientos que admiten mascotas y estancias únicas, en el proceso de reserva está muy simplificado y es de fácil acceso, ya que ocupa un lugar destacado en la parte superior de la página, esta ubicación garantiza que los usuarios puedan realizar sus reservaciones rápidamente y sin esfuerzo, la interfaz está diseñada para ser rápida, clara y fácil de usar, lo que mejora la experiencia general y minimiza los posibles obstáculos que puedan encontrar los usuarios.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
